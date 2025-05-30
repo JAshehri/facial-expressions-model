@@ -3,6 +3,7 @@ Facial Emotion Recognition Using CNN and OpenCV
 
 -----------------------------
 Overview:
+
 This project focuses on building a real-time facial emotion recognition system using a CNN model trained on grayscale facial images of size 48x48.
 
 The goal is to classify emotions into seven categories: Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
@@ -17,6 +18,7 @@ The prediction updates every 0.5 seconds only when a clear face is detected
 
 -----------------------------
 Libraries Used:
+
 TensorFlow and Keras – to build and train the model
 
 OpenCV – to capture the webcam and detect faces
@@ -33,6 +35,7 @@ https://www.kaggle.com/datasets/msambare/fer2013?resource=download
 
 -----------------------------
 Challenges Faced:
+
 Overfitting after 35 epochs
 
 Path issues on Windows (backslashes, incorrect paths)
@@ -47,6 +50,7 @@ Model predicting without any face detected
 
 -----------------------------
 Output:
+
 Emotion predictions are shown on both the terminal and the camera window.
 
 Updated every 0.5 seconds.
